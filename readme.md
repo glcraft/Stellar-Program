@@ -378,9 +378,7 @@ Exemple:
 Créer une extrusion d'une forme à une dimension inférieure. Par exemple, une extrusion 3D d'un ensemble 2D.
 Ce modifier est particulier car contrairement aux autres, l'instance attendue par l'extrude **doit** être d'une dimension inférieure.
 
-<img src="img/schema_extrude.svg"
-     alt="Schéma extrusion"
-     style="display:block;width:512px;margin-left:auto;margin-right:auto" />
+<img src="img/schema_extrude.svg" alt="Schéma extrusion" style="display:block;width:512px;margin-left:auto;margin-right:auto" />
 
 Paramètres:
 

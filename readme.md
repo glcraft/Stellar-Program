@@ -200,9 +200,9 @@ Forme de boite
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|size|vecteur|[0.5,0.5,0.5]|taille de la boite|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| size | vecteur |[0.5,0.5,0.5]| taille de la boite |
 
 **sphere**
 
@@ -210,9 +210,9 @@ Forme sphérique (pas elipsoïdale !)
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|radius|nombre|0.5|rayon de la sphère|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| radius | nombre | 0.5 | rayon de la sphère |
 
 **polygon**
 
@@ -220,9 +220,9 @@ Forme de polygon. Utilisable que sur 2 dimensions.
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|ngon|nombre entier|5|nombre de point du polygone (Pour faire un pentagone, ngon=5)|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| ngon | nombre entier | 5 |nombre de point du polygone (Pour faire un pentagone, ngon=5)|
 
 **plane**
 
@@ -230,10 +230,10 @@ Plan sans limite. Fonctionne sur l'equation de plan `ax + by + cz + d = 0` où [
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|normal|vecteur|[1,0,0]|normal du plan|
-|distance|nombre|0|distance du plan par rapport à la normal|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| normal | vecteur |[1,0,0]| normal du plan |
+| distance | nombre | 0 | distance du plan par rapport à la normal |
 
 **round_box**
 
@@ -241,10 +241,10 @@ Forme de boite aux bords arrondis. Equivalent à une `box` imbriqué dans un `ro
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|size|vecteur|[0.5,0.5,0.5]|Taille de la boite|
-|radius|nombre|0.1|Rayon des coins arrondis|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| size | vecteur |[0.5,0.5,0.5]| Taille de la boite |
+| radius | nombre | 0.1 | Rayon des coins arrondis |
 
 <u>**Catégorie Noises**</u>
 
@@ -254,12 +254,12 @@ Bruit de perlin
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|octaves|nombre entier|1|Nombre d'octaves|
-|frequency|nombre|1.0|Fréquence de base|
-|persistence|nombre|0.75|ratio d'evolution de l'amplitude à chaque octave|
-|lacunarity|nombre|2.0|ratio d'evolution de la fréquence à chaque octave|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| octaves | nombre entier | 1 | Nombre d'octaves |
+| frequency | nombre | 1.0 | Fréquence de base |
+| persistence | nombre | 0.75 | ratio d'evolution de l'amplitude à chaque octave |
+| lacunarity | nombre | 2.0 | ratio d'evolution de la fréquence à chaque octave |
 
 **simplex**
 
@@ -267,12 +267,12 @@ Bruit Simplex. Similaire au bruit de perlin avec une meilleure performance sur d
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|octaves|nombre entier|1|Nombre d'octaves|
-|frequency|nombre|1.0|Fréquence de base|
-|persistence|nombre|0.75|ratio d'evolution de l'amplitude à chaque octave|
-|lacunarity|nombre|2.0|ratio d'evolution de la fréquence à chaque octave|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| octaves | nombre entier | 1 | Nombre d'octaves |
+| frequency | nombre | 1.0 | Fréquence de base |
+| persistence | nombre | 0.75 | ratio d'evolution de l'amplitude à chaque octave |
+| lacunarity | nombre | 2.0 | ratio d'evolution de la fréquence à chaque octave |
 
 **voronoi**
 
@@ -280,17 +280,17 @@ Bruit cellulaire de worley.
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|randomness|nombre|1.0|coeficient de dispersion aléatoire du centre des points.|
-|output|0: couleur, 1: distance|1|Type de résultat. Couleur unique par point ou distance du point le plus proche.|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| randomness | nombre | 1.0 |coeficient de dispersion aléatoire du centre des points.|
+| output | 0: couleur, 1: distance | 1 |Type de résultat. Couleur unique par point ou distance du point le plus proche.|
 
 <u>**Catégorie Modifiers**</u>
 
 Paramètres communs: 
 
-|nom|type|description|
-|instance|ensemble|L'ensemble à modifier.|
+| nom | type | description |
+| instance | ensemble |L'ensemble à modifier.|
 
 **repetition**
 
@@ -298,9 +298,9 @@ Répète l'ensemble.
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|period|vecteur|[1,1,1]|distance entre chaque répétition.|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| period | vecteur |[1,1,1]|distance entre chaque répétition.|
 
 **elongate**
 
@@ -308,10 +308,10 @@ Allonge la forme
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|distance|vecteur|[0,0,0]|distance d'allongement par dimension|
-|quality|nombre entier|0|0: méthode rapide, 1: méthode standard|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| distance | vecteur |[0,0,0]| distance d'allongement par dimension |
+| quality | nombre entier | 0 | 0: méthode rapide, 1: méthode standard |
 
 **mirror**
 
@@ -319,9 +319,9 @@ Créer une symétrie de l'ensemble sur les dimension `axis`
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|axis|vecteur booléen|[0,0,0]|0: pas de symétrie, 1: symetrie sur l'axe|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| axis | vecteur booléen |[0,0,0]| 0: pas de symétrie, 1: symetrie sur l'axe |
 
 **onion**
 
@@ -329,9 +329,9 @@ Créer des couches intérieures de taille `thickness` allant jusqu'au centre de 
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|thickness|nombre|0.1|epaisseur des couches|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| thickness | nombre | 0.1 | epaisseur des couches |
 
 **round**
 
@@ -339,9 +339,9 @@ Arrondir la forme
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|radius|nombre|0.1|rayon de l'arrondissement. Note: l'objet va grossir d'une distance de rayon.|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| radius | nombre | 0.1 |rayon de l'arrondissement. Note: l'objet va grossir d'une distance de rayon.|
 
 **transform**
 
@@ -349,9 +349,9 @@ Matrice de transformation à appliquer à l'ensemble.
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|transforms|tableau|[]|liste de transformation à appliquer, dans l'ordre.|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| transforms | tableau |[]|liste de transformation à appliquer, dans l'ordre.|
 
 Liste des tranformation (sous forme de tuples) : 
 
@@ -384,21 +384,21 @@ Ce modifier est particulier car contrairement aux autres, l'instance attendue pa
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|coef_low|nombre|1.|coeficient de taille de la base basse |
-|coef_high|nombre|1.|coeficient de taille de la base haute|
-|dist_bases|nombre|1.|distance entre les deux bases|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| coef_low | nombre |1.|coeficient de taille de la base basse |
+| coef_high | nombre |1.| coeficient de taille de la base haute |
+| dist_bases | nombre |1.| distance entre les deux bases |
 
 
 <u>**Catégorie Combinateurs**</u>
 
 Paramètres communs: 
 
-|nom|type|description|
-|-|-|-|
-|instance1|ensemble|Premier ensemble à assembler|
-|instance2|ensemble|Deuxième ensemble à assembler|
+| nom | type | description |
+| - | - | - |
+| instance1 | ensemble | Premier ensemble à assembler |
+| instance2 | ensemble | Deuxième ensemble à assembler |
 
 **intersection**
 
@@ -406,9 +406,9 @@ Intersection booléenne
 
 Paramètres: 
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|smooth|nombre|Pas de lissage|Lissage de la combinaison|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| smooth | nombre | Pas de lissage | Lissage de la combinaison |
 
 **difference**
 
@@ -416,9 +416,9 @@ Différence booléenne
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|smooth|nombre|Pas de lissage|Lissage de la combinaison|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| smooth | nombre | Pas de lissage | Lissage de la combinaison |
 
 **union**
 
@@ -426,9 +426,9 @@ Union booléenne
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|smooth|nombre|Pas de lissage|Lissage de la combinaison|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| smooth | nombre | Pas de lissage | Lissage de la combinaison |
 
 **displacement**
 
@@ -442,7 +442,7 @@ Génère un ensemble de mandelbrot avec un nombre donné d'itérations (faisant 
 
 Paramètres:
 
-|nom|type|valeur défaut|description|
-|-|-|-|-|
-|power|nombre|8 en 3D, 2 en 2D|La puissance utilisée pour calculer les itérations de la fractale tel que Zn+1 = Zn^power + Z0.|
-|iterations|nombre entier|5 en 3D, 50 en 2D|Nombre d'itérations de l'ensemble (influe sur le niveau de détails).|
+| nom | type | valeur défaut | description |
+| - | - | - | - |
+| power | nombre | 8 en 3D, 2 en 2D |La puissance utilisée pour calculer les itérations de la fractale tel que Zn+1 = Zn^power + Z0.|
+| iterations | nombre entier | 5 en 3D, 50 en 2D |Nombre d'itérations de l'ensemble (influe sur le niveau de détails).|
